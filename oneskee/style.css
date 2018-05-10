@@ -1,0 +1,389 @@
+
+body{
+	margin: 0 0 0 0;
+}
+p{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+a{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+h1{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding:0 0 0 0;
+}
+#topBar{
+	overflow: hidden;
+}
+#colorbar{
+	background-image: url('images//oneskee-home-02_01.jpg');
+	background-repeat: no-repeat;
+	background-color:#213875;
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 61px;
+	
+}
+#colorbar div{
+	display: inline-block;
+}
+#colorbar a{
+	color: #fff;
+	padding-left: 35px;
+	font-size: 12px;
+	font-weight: lighter;
+	
+}
+
+#headband{
+	color: #000;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	
+}
+#headband div{
+
+	
+
+}
+#LanguageSelect{
+	width: 152px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	line-height: 86px;
+}
+
+#LanguageSelect a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #000;
+	
+}
+#LanguageSelect a img{
+	padding-right: 13px;
+}
+#LanguageSelect:after{
+	content: " ";
+	width: 1px;
+	height: 48px;
+	right:0;
+	top:19px;
+	bottom: 23px;
+	position: absolute;
+	background-color: #ebebeb;
+
+}
+#Shipping {
+	position:relative;
+	top:10px;
+	display: inline-block;
+	width: 205px;
+	
+}
+
+#Shipping:after{
+	content: " ";
+	width: 1px;
+	height: 48px;
+	top:0px;
+	position:absolute;
+	right:0;
+	background-color:#ebebeb;
+}
+#Shipping p{
+	padding-left: 31px;
+	padding-right: 15px;
+	 
+}
+#Shipping  a{
+	color: #000;
+	line-height: 18px;
+	font-size: 11px;
+
+}
+#Shipping a span{
+	text-decoration: underline;
+}
+.menu {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.menu nav ul {
+	list-style-type: none;
+
+}
+.menu nav ul li{
+	font-size: 13px;
+	display:inline;
+	padding-right: 82px;
+}
+#menuLeft {
+	float:left;
+	line-height: 53px;
+	padding-left: 601px;
+}
+#logo{
+	
+	position: absolute;
+	left:0px;
+	right: 0px;
+	width: 177px;
+	margin-left:auto;
+	margin-right: auto;
+	
+	top: 26px;
+}
+#menuRight{
+	float: right;
+	line-height: 53px;
+	padding-right: 569px;
+}
+#menuRight ul li{
+	padding: 0 0 0 50px;  
+
+}
+#floatLeftContent{
+	position:absolute;
+	left:0;
+}
+#floatRightContent {
+	position:absolute;
+	right:0;
+	display: inline-block;
+	line-height: 84px;
+	
+	text-align: center;
+}
+#floatRightContent #search{
+	line-height: 84px;
+	display:inline-block;
+	position:relative;
+	
+	width:82px;
+}
+#search:after{
+	content:" ";
+	width: 1px;
+	height: 48px;
+	right:0;
+	top:19px;
+	bottom: 23px;
+	position: absolute;
+	background-color: #ebebeb;
+
+}
+#search:before{
+	content:" ";
+	width: 1px;
+	height: 48px;
+	left: 0;
+	top:19px;
+	bottom: 23px;
+	position: absolute;
+	background-color: #ebebeb;
+
+}
+#floatRightContent #user{
+	
+	position:relative;
+	display:inline-block;
+	
+	width:82px;
+}
+#user:after{
+	content:" ";
+	width: 1px;
+	height: 48px;
+	right: 0;
+	top:19px;
+	bottom: 23px;
+	position: absolute;
+	background-color: #ebebeb;
+}
+#floatRightContent #bag{
+	
+	display:inline-block;
+	width: 98px;
+}
+#bag div{
+	line-height: 12px;
+	position:absolute;
+	top:18px;
+	right:25px;
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+	font-size: 10px;
+	background-color: #2b890b;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
+	
+}
+#container1{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1900px;
+	width: 91%;
+}
+#slide1{
+	background-image: url('images//slide1content_02.jpg');
+	background-repeat: no-repeat;
+	
+}
+#slide1 #productname{
+	
+	padding-left:212px;
+	padding-top: 292px;
+	
+	width: 465px;
+}
+#productname div{
+	background-color:#213875;
+}
+#productname div p{
+	padding-left: 27px;
+	padding-top: 33px;
+	padding-bottom: 27px;
+}
+#slide1 #productname a{
+
+	color: #fff;
+	font-size: 44px;
+}
+#slide1 #productname a span{
+	font-size: 16px;
+}
+#shopnow{
+	padding-left: 212px;
+}
+#shopnow #content {
+	background-color: #fff;
+	width: 132px;
+	
+
+}
+#content{
+	text-align: center;
+}
+#content  a{
+	color: #213875;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 46px;
+	
+}
+#bottombarslide{
+	padding-bottom: 30px;
+	padding-left: 212px;
+	padding-top: 228px;
+}
+#bottomcontainer{
+	background-color: #fff;
+	
+	max-width: 1497px;
+	width: 90%
+}
+.content{
+	display:inline-block;
+	max-width: 472px;
+	width: 90%;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	
+}
+#bottomcontainer a{
+	color:#000;
+	font-size: 15px;
+
+}
+#bottomcontainer a span{
+	color:#213875;
+	font-size: 14px;
+	font-weight: bold;
+}
+.imageLeft{
+	width: 133px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text p{
+	padding-top: 33px;
+}
+#image1{
+	padding-left: 20px;
+	background-image: url('images//shopformen_03.jpg');
+	display:table-cell;
+}
+.text{
+	padding-left: 25px;
+	padding-right: 50px;
+	position: relative;
+}
+#text1{
+
+	max-width: 341px;
+	width: 90%;
+	display:table-cell;
+}
+#text1:after{
+	content:" ";
+	width: 2px;
+	max-height:119px;
+	height: 90%;
+	background-color: #ebebeb;
+	position:absolute;
+	right:0;
+	top: 0;
+	bottom: 0;
+}
+
+#image2{
+	background-image: url('images//shopforwomen_03.jpg');
+	display:table-cell;
+	position: relative;
+}
+#text2{
+	width: 90%;
+	max-width: 341px;
+	display:table-cell;
+	
+}
+#text2:after{
+	content:" ";
+	width: 2px;
+	max-height:119px;
+	height: 90%;
+	right:0;
+	top: 0;
+	bottom: 0;
+	background-color: #ebebeb;
+	position:absolute;
+	
+}
+#image3{
+	background-image: url('images//TheTech_03.jpg');
+	display: table-cell;
+}
+#text3{
+	width: 90%;
+	max-width: 341px;
+	
+	display:table-cell;
+}
