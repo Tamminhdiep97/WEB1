@@ -234,11 +234,11 @@ ul{
 	border-radius: 6px;
 	
 }
-#container1{
+.container1{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1900px;
-	width: 91%;
+	/*width: 91%;*/
 }
 #slide1{
 	background-image: url('images//slide1content_02.jpg');
@@ -388,22 +388,100 @@ ul{
 	display:table-cell;
 }
 
-#container2{
+.container2{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1500px;
-	width: 91%;
+	/*width: 91%; */
 }
 #container2 #content1{
 	padding-top: 60px;
 }
 #container2_content1_text{
 	display: table-cell;
-	width: 50%;
+	width: 775px;
 }
 #container2_content1_imgage{
 	display: table-cell;
-	background-image: url();
+	background-image: url("images//modernlook.jpg");
 	background-size: cover;
-	width: 50%
+	width: 725px;
+}
+#content1{
+	padding-top: 60px;
+}
+#content1_text_text1{
+	font-size: 36px;
+	padding-top: 126px;
+	padding-bottom: 36px;
+}
+#content1_text_text2{
+	font-size: 16px;
+	padding-right: 205px;
+	padding-bottom: 38px;
+}
+#container2_content1_text a{
+	color:#213875;
+	text-decoration: underline;
+
+}
+#container2_content1_text #tag_a{
+	padding-bottom: 130px;
+}
+#CONTENT_2{
+	padding-top: 67px;
+}
+#CONTENT_2 #content_2_background {
+	background-image: url("images//content3_background.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	width: 100%;
+	overflow: hidden;
+
+}
+#content_2_background div{
+	width: 20%;
+	background-color: rgba(0,0,0,0.7);
+	border-color: #565c65;
+	position:relative;
+	float:left;
+	
+}
+.content_2_background_p1 {
+	padding-top: 73px;
+	font-size: 13px;
+	font-weight: bold;
+	color:#adb0b5;
+}
+.content_2_background_p2 {
+	padding-top:32px;
+	padding-bottom: 350px;
+	font-size: 32px;
+	font-weight: lighter;
+	color: #fff;
+}
+#content_2_background_text5{
+	padding-bottom: 314px
+	
+}
+#content_2_background i{
+	color:#575e6b;
+	font-size: 32px;
+}
+#content_2_background p{
+	padding-right: 40px;
+	padding-left: 51px;
+}
+#content_2_background i{
+	padding-left: 51px;
+	padding-bottom: 55px;
+}
+#content_2_background div:after{
+	position:absolute;
+	content:" " ;
+	background-color: rgba(255,255,255,0.1);
+	width: 2px;
+	height: 592px;
+	right:0;
+	top:0;
 }
